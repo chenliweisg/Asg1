@@ -1,1 +1,1 @@
-# Revamp for ngee ann polytechnic webpage
+# Ngee Ann Polytechnic webpage
