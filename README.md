@@ -1,3 +1,3 @@
 # Ngee Ann Polytechnic webpage
-The website has all the information about ngee ann polytechnic. It allows users to view and sign up courses in NP. It also have some interaction with user such as draw prizes.
+Introducting an education website that show case the about,achievement and courses by the school. The website allows users to sign up course and view all facilities in the school. There are some micro interaction with user such as scanning QR code, show current devices, lucky draw and change the background color of the website.
 # Design Process
