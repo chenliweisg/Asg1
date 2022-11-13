@@ -1,3 +1,3 @@
-# Ngee Ann Polytechnic webpage
-Introducting an education website that show case the about,achievement and courses by the school. The website allows users to sign up course and view all facilities in the school. There are some micro interaction with user such as scanning QR code, show current devices, lucky draw and change the background color of the website.
+# Online course
+Introducing an online e-learning website. The website allows users to view and sign up course. There are some micro interaction with user such as showing current devices and hangman game.
 # Design Process
