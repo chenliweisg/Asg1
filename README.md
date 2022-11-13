@@ -4,3 +4,5 @@ Introducing SmartCamp an online e-learning website that enable company to introd
 Edward is a student, who wants to learn how to code. He went to SmartCamp's homepage to understand the organization. 
 Later he went to the course page to view all the products. After choosing his product and signing up, the website brings him to the signup page.
 He then enters his credit card information and email.
+
+click here to view the prototype https://xd.adobe.com/view/2cd54006-2259-438b-a3c9-86eb302a823d-7986/
