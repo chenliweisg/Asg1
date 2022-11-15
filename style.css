@@ -1,0 +1,112 @@
+/*Overall adjustment*/
+*{
+    margin: 0;
+}
+
+/*Adjust fonts size*/
+h1{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: large;
+}
+
+/*button style*/
+button{
+    padding: 20px 60px;
+    border: transparent;
+    background-color: orange;
+    border-radius: 5px;
+    font-size:large;
+}
+
+/*padding between each element*/
+p,h1,button{
+    margin: 15px;
+    font-family: 'Cabin', sans-serif;
+}
+
+/*split section*/
+.left-content,.right-content{
+    width: 50%;
+}
+
+/*banner & container flex*/
+.banner,.feature1 .container,.feature2 .container{
+    display: flex;
+    align-items: center;
+}
+
+/*banner & container size*/
+.banner,.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 0px;
+}
+
+/*intro & feature 3 section align to center*/
+.intro,.feature3{
+    text-align: center;
+}
+
+
+/*Navbar*/
+nav{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    margin: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Header*/
+header{
+    background-color: #1C2833;
+}
+
+header p, header h1 {
+    color: white;
+}
+
+/*Intro*/
+.intro{
+    background-color:#FBEEE6 ;
+}
+
+.intro p,.feature3 p{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*feature1*/
+.feature1{
+    background-color:#9FE2BF ;
+}
+
+/*feature2*/
+.feature2{
+    background-color:#FF7F50 ;
+}
+
+/*feature3*/
+.feature3{
+    background-color:#6495ED ;
+}
+
+.database{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 40px;
+}
