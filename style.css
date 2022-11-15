@@ -95,6 +95,28 @@ header p, header h1 {
     background-color:#9FE2BF ;
 }
 
+.feature1 .courses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.feature1 .courses div{
+    width: 40%;
+    display: flex;
+    padding: 5%;
+}
+
+.course1,.course3{
+    justify-content: right;
+}
+
+.course2 h2,.course4 h2{
+    order: 1;
+}
+
+.courses img{
+    width: 100px;
+}
+
 /*feature2*/
 .feature2{
     background-color:#FF7F50 ;
