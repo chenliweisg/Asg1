@@ -35,15 +35,16 @@ p,h1,button{
 /*banner & container flex*/
 .banner,.feature1 .container,.feature2 .container{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
-/*banner & container size*/
+/*Set banner & container of each section width to 1200px and padding top&bottom 80px*/
 .banner,.container{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 80px 0px;
+    padding: 100px 0px;
 }
 
 /*intro & feature 3 section align to center*/
@@ -52,7 +53,7 @@ p,h1,button{
 }
 
 
-/*Navbar*/
+/*NAVBAR*/
 nav{
     background-color: #333;
     display: flex;
@@ -79,7 +80,12 @@ header p, header h1 {
     color: white;
 }
 
-/*Intro*/
+/*Set a size for banner image*/
+.banner img{
+    width: 500px;
+}
+
+/*INTRO*/
 .intro{
     background-color:#FBEEE6 ;
 }
@@ -90,45 +96,145 @@ header p, header h1 {
     margin-right: auto;
 }
 
-/*feature1*/
+/*Set a size for intro image*/
+.intro img{
+    width: 600px;
+}
+
+
+/*FEATURE 1*/
 .feature1{
     background-color:#9FE2BF ;
 }
 
-.feature1 .courses{
+/*Change the layout of all courses side to side */
+.feature1 .right-content{
     display: flex;
     flex-wrap: wrap;
 }
-.feature1 .courses div{
-    width: 40%;
-    display: flex;
-    padding: 5%;
+
+/*set the width of each course to 50%*/
+.feature1 .right-content div{
+    width: 50%;
+    padding: 40px 0px;
+    display: flex; /*change the layout of text and image side to side*/
 }
 
-.course1,.course3{
-    justify-content: right;
-}
 
-.course2 h2,.course4 h2{
-    order: 1;
-}
 
-.courses img{
+/*Set a width for each image course*/
+.feature1 .right-content img{
     width: 100px;
 }
 
-/*feature2*/
+/*FEATURE2*/
 .feature2{
     background-color:#FF7F50 ;
 }
 
-/*feature3*/
+/*FEATURE3*/
 .feature3{
     background-color:#6495ED ;
 }
 
+/*Change the layout of database to side by side*/
 .database{
     display: flex;
     justify-content:space-between;
+    flex-wrap: wrap;
     padding-top: 40px;
+}
+
+
+/*Responsive*/
+/*small screens like laptop 769px — 1024px*/
+@media screen and (max-width: 1024px) { 
+    /*split section*/
+    .left-content,.right-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    /*FEATURE3*/
+    /*Change the layout of database 2x2*/
+    .database div{
+        width: 50%;
+    }
+}
+
+/*iPads & tablets 481px — 768px*/
+@media screen and (max-width: 768px) { 
+
+
+    /*Set banner & container of each section width to 1200px and padding top&bottom 80px*/
+    .banner,.container{
+        padding: 80px 60px;
+    }
+
+    /*set size for Header img*/
+    .banner img{
+        content: url("https://web-mobile-first.s3.eu-west-3.amazonaws.com/production/small_samsung_galaxy_tab_s7_74dbd026ab.png");
+        width: 300px;
+    }
+
+    /*INTRO SECTION*/
+    /*Set a size for intro image*/
+    .intro img{
+        width: 400px;
+    }
+
+
+    /*FEATURE2*/
+    .feature2 img{
+        width: 400px;
+    }
+
+    /*FEATURE3*/
+    /*Change the layout of database 4x1*/
+    .database div{
+        width: 100%;
+    }
+}
+
+/*Mobile devices 320px — 480px*/
+@media screen and (max-width: 480px) {
+    /*Set banner & container of each section width to 1200px and padding top&bottom 80px*/
+    .banner,.container{
+        padding: 80px 10px;
+    }
+
+    /*set size for Header img*/
+    .banner img{
+        content: url("https://cdn.pixabay.com/photo/2019/09/30/10/58/iphone-x-4515390_960_720.png");
+        width:100%;
+    }
+
+    /*INTRO SECTION*/
+    /*Set a size for intro image*/
+    .intro img{
+        width:100%;
+    }
+
+
+    /*FEATURE 1*/
+    /*set the width of each course to 100%*/
+    .feature1 .right-content div{
+        width: 100%;
+        padding: 20px 0px;
+        display: block;
+    }
+
+    /*Set a width for each image course*/
+    .feature1 .right-content img{
+        width: 25%;
+    }
+
+    /*FEATURE2*/
+    .feature2 img{
+        width: 100%;
+    }
+
+    button{
+        padding: 20px 20px;
+    }
 }
