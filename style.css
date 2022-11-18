@@ -1,4 +1,4 @@
-/*Overall adjustments*/
+/*OVERALL ADJUSTMENT FOR LAYOUT*/
 *{
     margin: 0;
 }
@@ -10,9 +10,10 @@ h1{
 
 p{
     font-size: large;
+    color: #212F3C;
 }
 
-/*button style*/
+/*Set style for button */
 button{
     padding: 20px 60px;
     border: transparent;
@@ -21,37 +22,36 @@ button{
     font-size:large;
 }
 
-/*padding between each element*/
+/*margin between texts & buttons*/
 p,h1,button{
     margin: 15px;
     font-family: 'Cabin', sans-serif;
 }
 
-/*split section*/
-.left-content,.right-content{
-    width: 50%;
-}
-
-/*banner & container flex*/
+/*Change Banner,feature1 & feature2 display to flex*/
 .banner,.feature1 .container,.feature2 .container{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
-/*Set banner & container of each section width to 1200px and padding top&bottom 80px*/
+/*split screen 1/2 (1025px & above)*/
+.left-content,.right-content{
+    width: 50%;
+}
+
+/*elements in intro & feature 3 section are align to center*/
+.intro,.feature3{
+    text-align: center;
+}
+
+/*Set a max width & some paddings to class banner & container*/
 .banner,.container{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding: 100px 0px;
 }
-
-/*intro & feature 3 section align to center*/
-.intro,.feature3{
-    text-align: center;
-}
-
 
 /*NAVBAR*/
 nav{
@@ -71,7 +71,7 @@ nav ul li a{
     text-decoration: none;
 }
 
-/*Header*/
+/*HEADER SECTION*/
 header{
     background-color: #1C2833;
 }
@@ -85,7 +85,7 @@ header p, header h1 {
     width: 500px;
 }
 
-/*INTRO*/
+/*INTRO SECTION*/
 .intro{
     background-color:#FBEEE6 ;
 }
@@ -102,7 +102,7 @@ header p, header h1 {
 }
 
 
-/*FEATURE 1*/
+/*FEATURE 1 SECTION*/
 .feature1{
     background-color:#9FE2BF ;
 }
@@ -115,24 +115,31 @@ header p, header h1 {
 
 /*set the width of each course to 50%*/
 .feature1 .right-content div{
-    width: 50%;
+    width: 46%;
+    margin: 2%;
     padding: 40px 0px;
+    border-radius: 10px;
+    background-color: white;
     display: flex; /*change the layout of text and image side to side*/
 }
-
-
 
 /*Set a width for each image course*/
 .feature1 .right-content img{
     width: 100px;
 }
 
-/*FEATURE2*/
+/*Set padding for image and h2 inside course*/
+.feature1 .right-content img,.feature1 .right-content h2{
+    padding: 0% 4%;
+
+}
+
+/*FEATURE2 SECTION*/
 .feature2{
     background-color:#FF7F50 ;
 }
 
-/*FEATURE3*/
+/*FEATURE3 SECTION*/
 .feature3{
     background-color:#6495ED ;
 }
@@ -155,6 +162,23 @@ header p, header h1 {
         text-align: center;
     }
 
+    /*FEATURE 1*/
+    /*set layout of course to 2x1 and center align it*/
+    .feature1 .right-content div{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /*Set a size for feature1 course image*/
+    .feature1 .right-content img{
+        width: 80px;
+    }
+
+    /*set h2 a padding top*/
+    .feature1 .right-content div h2{
+        padding-top: 4%;
+    }
+
     /*FEATURE3*/
     /*Change the layout of database 2x2*/
     .database div{
@@ -166,7 +190,7 @@ header p, header h1 {
 @media screen and (max-width: 768px) { 
 
 
-    /*Set banner & container of each section width to 1200px and padding top&bottom 80px*/
+    /*Set banner & container of each section width to 1200px and padding top & Ebottom 80px*/
     .banner,.container{
         padding: 80px 60px;
     }
@@ -181,6 +205,12 @@ header p, header h1 {
     /*Set a size for intro image*/
     .intro img{
         width: 400px;
+    }
+
+    /*Set a size for feature1 course image*/
+    /*FEATURE1*/
+    .feature1 .right-content img{
+        width: 60px;
     }
 
 
@@ -215,13 +245,16 @@ header p, header h1 {
         width:100%;
     }
 
-
     /*FEATURE 1*/
     /*set the width of each course to 100%*/
     .feature1 .right-content div{
-        width: 100%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
         padding: 20px 0px;
-        display: block;
+        align-items: center;
+        flex-direction: column;
     }
 
     /*Set a width for each image course*/
@@ -234,6 +267,7 @@ header p, header h1 {
         width: 100%;
     }
 
+    /*Change the size of the button*/
     button{
         padding: 20px 20px;
     }
