@@ -35,9 +35,11 @@ click here to view the prototype https://xd.adobe.com/view/2cd54006-2259-438b-a3
 # Credits
 <h3>Content</h3>
 <h3>Media</h3>
-https://i.pinimg.com/originals/26/9d/d1/269dd16fa1f5ff51accd09e7e1602267.png (Navbar Collapse icon)
-https://www.seekpng.com/png/full/40-406232_laptop-transparent-laptop-screen-black-png.png (Device image)
-https://newline-interactive.com/wp-content/uploads/2020/03/E-learning-2-1.png (Introduction image)
+<ul>
+<li>https://i.pinimg.com/originals/26/9d/d1/269dd16fa1f5ff51accd09e7e1602267.png (Navbar Collapse icon)</li>
+<li>https://www.seekpng.com/png/full/40-406232_laptop-transparent-laptop-screen-black-png.png (Device image)</li>
+<li>https://newline-interactive.com/wp-content/uploads/2020/03/E-learning-2-1.png (Introduction image)</li>
+</ul>
 
 <h3>Acknowledgements</h3>
 <ul>
