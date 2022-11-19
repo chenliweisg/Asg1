@@ -174,7 +174,7 @@ header p, header h1 {
     display: flex; /*change the layout of text and image side to side*/
 }
 
-/*Set a width for each image course*/
+/*Set a width for each image course */
 .feature1 .right-content img{
     width: 100px;
 }
