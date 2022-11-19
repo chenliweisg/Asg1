@@ -14,8 +14,18 @@ The user will be able to view all courses and each course have details on what t
   <li>As a user, I want to enter my credit card information, So i can sign up for my plan.</li>
 </ul>
 
-<strong>Persona:</strong>Edward is a student, who wants to learn how to code. He went to SmartCamp's homepage to understand the organization. 
+<h3>Persona</h3>Edward is a student, who wants to learn how to code. He went to SmartCamp's homepage to understand the organization. 
 Later he went to the course page to view all the products. After choosing his product and signing up, the website brings him to the signup page.
 He then enters his credit card information and email.
 
 click here to view the prototype https://xd.adobe.com/view/2cd54006-2259-438b-a3c9-86eb302a823d-7986/
+
+# Features
+<h3>Exisiting Features</h3>
+<ul>
+  <li>Feature 1 - navbar collpase in small devices(responsive features)</li>
+  <li>Feature 2 - Banner image will change according to different width size(responsive features)</li>
+  <li>Feature 3 - Button color and text will change when mouse hover over</li>
+</ul>
+
+
