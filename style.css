@@ -9,12 +9,11 @@ body{
 
 /*Adjust fonts size*/
 h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 p{
     font-size: large;
-    color: #212F3C;
 }
 
 
@@ -28,7 +27,7 @@ button{
 }
 
 /*margin between texts & buttons*/
-p,h1,button{
+p,h1,h2,button{
     margin: 15px;
     font-family: 'Cabin', sans-serif;
 }
@@ -149,7 +148,14 @@ header p, header h1 {
 
 /*FEATURE 1 SECTION*/
 .feature1{
-    background-color:#9FE2BF ;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/576/507/original/abstract-flat-solid-color-background-free-vector.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*color*/
+.feature1 p, .feature1 h1 {
+    color: white;
 }
 
 /*Change the layout of all courses side to side */
@@ -181,12 +187,22 @@ header p, header h1 {
 
 /*FEATURE2 SECTION*/
 .feature2{
-    background-color:#FF7F50 ;
+    background-color:#48C9B0 ;
 }
 
 /*FEATURE3 SECTION*/
 .feature3{
     background-color:#6495ED ;
+}
+
+/*title color*/
+.feature3 h1{
+    color: white;
+}
+
+/*data title color*/
+.feature3 .database h1{
+    color: cyan;
 }
 
 /*Change the layout of database to side by side*/
@@ -311,6 +327,12 @@ header p, header h1 {
 
 /*Mobile devices 320px — 480px*/
 @media screen and (max-width: 480px) {
+
+    /*Adjust fonts size*/
+    h1{
+        font-size: 2.5rem;
+    }
+
     /*Set banner & container of each section width to 1200px and padding top&bottom 80px*/
     .banner,.container{
         padding: 80px 10px;
