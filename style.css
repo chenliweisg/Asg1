@@ -32,6 +32,18 @@ p,h1,h2,button{
     font-family: 'Cabin', sans-serif;
 }
 
+/*button style*/
+button {
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    background-color: #5cb85c;
+}
+
 /*Change Banner,feature1 & feature2 display to flex*/
 .banner,.feature1 .container,.feature2 .container{
     display: flex;
@@ -76,9 +88,16 @@ p,h1,h2,button{
     padding: .6rem;
 }
 
+.brand-title a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
 .brand-title:hover{
     background-color: #555;
 }
+
 
 /*navbar links layout*/
 .navbar-links ul{
@@ -193,10 +212,14 @@ header p, header h1 {
 /*FEATURE3 SECTION*/
 .feature3{
     background-color:#6495ED ;
+    /*background-image: url("https://cdn.macstories.net/icons1529553323730-1637678091349.png");*/
+    background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/619150/3bb00cbe95127f2fe36c85a33cfe69f4e5911234.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /*title color*/
-.feature3 h1{
+.feature3 h1,.feature3 p{
     color: white;
 }
 

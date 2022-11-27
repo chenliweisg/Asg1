@@ -1,0 +1,349 @@
+/******OVERALL ADJUSTMENT FOR LAYOUT******/
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #333;
+}
+
+/*Adjust fonts size*/
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+p{
+    font-size: 1.0rem;
+}
+
+/*margin between texts*/
+p,h1,h2,h3,.subtitle{
+    margin: 15px;
+    font-family: 'Cabin', sans-serif;
+}
+
+/*Change layout of Banner, Category & Courses*/
+.banner,.category,.courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Set a max width & some paddings to class banner & maincontent*/
+.banner,.maincontent{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0px;
+}
+
+
+/******NAV*****/
+/*navbar layout and style*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Cabin', sans-serif;
+}
+
+/*navbar brand text style*/
+.brand-title{
+    font-size: 1.5rem;
+    padding: .6rem;
+}
+
+.brand-title a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.brand-title:hover{
+    background-color: #555;
+}
+
+/*navbar links layout*/
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/*navbar links style*/
+.navbar-links li{
+    list-style-type: none;
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links li:hover{
+    background-color: #555;
+}
+
+/*toggle button style*/
+.toggle_button{
+    position: absolute;
+    right: 0rem;
+    padding: .5rem;
+    display: none;
+}
+
+.toggle_button:hover{
+    background-color: #555;
+}
+
+
+/******HEADER/BANNER SECTION******/
+/*header/banner section bg color*/
+header{
+    background-color: #1C2833;
+}
+
+/*text color*/
+header p, header h1{
+    color: white;
+}
+
+/*left-right banner screen 1/2 (1025px & above)*/
+.left-content,.right-content{
+    width: 50%;
+}
+
+/*right banner content style*/
+header .right-content{
+    text-align: center;
+}
+
+header .coursename {
+    color: #40E0D0;
+}
+
+/*left banner subtitle(LEARN)*/
+header .subtitle{
+    display: flex;
+    align-items: center;
+}
+
+header .subtitle img{
+    height: 50px;
+    width: 50px;
+}
+
+/*left banner image*/
+.banner img{
+    width: 500px;
+}
+
+/******MAIN SECTION******/
+main{
+    background-color: rgb(237, 242, 245);
+}
+
+/*Category*/
+.category h3{
+    padding: 10px 80px;
+}
+
+/*whole course*/
+/*layout & style for courses*/
+.courses{
+    justify-content: space-between;
+}
+
+.course{
+    background-color: #FFFF;
+    border-radius: 5px;
+    width: 27.3%;
+    margin: 1% 1%;
+    padding: 40px 2%;
+}
+
+/*info h2, p style*/
+.info p, .info h2{
+    margin: 15px 0px;
+}
+
+/*INFO image size*/
+.course .info img {
+    width: 48px;
+}
+
+/*Detail layout*/
+/*details p font weight*/
+.details p{
+    font-weight: bold;
+}
+
+.lesson,.courseType,.review{
+    display: flex;
+    align-items: center;
+}
+
+.course .details img {
+    width: 32px;
+}
+
+.course {
+    transition: transform .3s; /* Animation */
+  }
+  
+.course:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 11px #cacaca;
+    cursor: pointer;
+  }
+
+/******Responsive******/
+/*small screens like laptop 769px — 1024px*/
+@media screen and (max-width: 1024px) { 
+
+    .banner,.maincontent{
+        padding: 4% 8%;
+    }
+
+    /******HEADER/BANNER SECTION******/
+    /*left-right banner screen 1/1*/
+    .left-content,.right-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    /*Banner style adjust*/
+    .right-content{
+        margin-top: 4%;
+    }
+
+    /*banner Subtitle style*/
+    .subtitle{
+        justify-content: center;
+    }
+
+    /******MainSection******/
+    /*cateogry style*/
+    .category{
+        justify-content: space-around;
+    }
+    .category h3{
+        padding: 10px 55px;
+    }
+
+    /*change course layout to 2 column*/
+    .course{
+        width: 44%;
+        margin: 1% 1%;
+        padding: 40px 2%;
+    }
+}
+
+/*iPads & tablets 481px — 768px*/
+@media screen and (max-width: 768px) { 
+    /*Adjust fonts size*/
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1.0rem;
+    }
+
+    /******HEADER/BANNER SECTION******/
+    .banner .right-content img{
+        width: 80%;
+    }
+
+    /******MainSection******/
+    /*cateogry style*/
+    .category{
+        text-align: center;
+    }
+    
+    .category h3{
+        width: 100%;
+    }
+
+    /*change course layout to 2 column*/
+    .course{
+        width: 100%;
+        margin: 2.5% 0%;
+        padding: 40px 5%;
+    }
+}
+
+/*Mobile devices 320px — 480px*/
+@media screen and (max-width: 480px) {
+    /*Adjust fonts size*/
+    h1{
+        font-size: 1.8rem;
+    }
+
+    h2{
+        font-size: 1.3rem;
+    }
+
+    p{
+        font-size: .9rem;
+    }
+}
+
+
+/*navbar adjustment 481px — 768px*/
+@media screen and (max-width: 768px) {
+    /*Navbar*/
+    /*nav toggle button appear*/
+    .toggle_button{
+        display: block;
+    }
+
+     /*nav links disappear*/
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+
+    /*navbar layout is change to veritcal*/
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /*navbar link layout is change to veritcal*/
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    /*navbar link align center*/
+    .navbar-links li{
+        text-align: center;
+    }
+
+    /*navbar link text padding*/
+    .navbar-links li a{
+        padding: 2%;
+    }
+
+    /*navbar link appear in veritcal layout when toggle button is clicked*/
+    .navbar-links.active{
+        display: flex;
+    }
+}
+
