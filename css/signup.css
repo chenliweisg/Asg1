@@ -1,0 +1,138 @@
+/*OVERALL ADJUSTMENT FOR LAYOUT*/
+*{
+    margin: 0;
+}
+
+/*Adjust fonts size*/
+h1{
+    font-size: 2rem;
+}
+
+p{
+    font-size: large;
+}
+
+/*margin between texts & buttons*/
+p,h1,h2,form{
+    margin: 15px;
+    font-family: 'Cabin', sans-serif;
+}
+
+/******MAIN SECTION******/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/premium-vector/dark-memphis-geometric-shapes-background_23-2148362571.jpg?w=2000");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/****SignUp****/
+/*Set a width for signup section*/
+.signup{
+    width: 514px;
+}
+
+/*Set margin to each section*/
+.brand-name,.createAccount,.toSignInPage{
+    margin: 4% 0%;
+}
+
+/*Set a white bg color to createaccount & tosigninpage*/
+.createAccount,.toSignInPage{
+    background-color: white;
+    border-radius: 4px;
+}
+
+/*align some text to center*/
+.brand-name,.createAccount .title,.toSignInPage{
+    text-align: center;
+}
+
+/***brandname***/
+/*style for brandname*/
+.brand-name a{
+    text-decoration: none;
+    color: white;
+}
+
+/***createAccount***/
+/*padding for createaccount*/
+.createAccount{
+    padding: 1% 4%;
+}
+
+form label{
+    font-weight: bold;
+    font-size: medium;
+}
+
+/*style for input text and button*/
+form input[type=email],form input[type=password]{
+    width: 100%;
+    padding: 14px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #d6d1d1;
+    -webkit-transition: 1.5s;
+    transition: border 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+    outline: none;
+}
+
+form input[type=email]:focus,form input[type=password]:focus{
+    border: 2px solid #F6A521;
+}
+
+form input[type=submit]{
+    width: 100%;
+    padding: 14px;
+    box-sizing: border-box;
+    background-color: orange;
+    border-radius: 5px;
+    border: 2px solid orange;
+    margin: 7px 0px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+form input[type=submit]:hover {
+    cursor: pointer;
+    background-color: rgb(255, 193, 77);
+    border: 2px solid rgb(255, 193, 77);
+}
+
+/***toSignInPage***/
+.toSignInPage{
+    padding: 1%;
+}
+/*Responsive*/
+/*small screens like laptop 769px — 1024px*/
+@media screen and (max-width: 1024px) { 
+    
+}
+
+/*iPads & tablets 481px — 768px*/
+@media screen and (max-width: 768px) { 
+    /****SignUp****/
+    /*Set a width for signup section*/
+    main{
+        padding: 4% 8%;
+    }
+
+    p{
+        font-size: medium;
+    }
+}
+
+/*Mobile devices 320px — 480px*/
+@media screen and (max-width: 480px) {
+
+    /*Adjust fonts size*/
+    h1{
+        font-size: 1.5rem;
+    }
+
+}
