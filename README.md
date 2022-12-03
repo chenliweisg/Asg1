@@ -10,8 +10,6 @@ The user will be able to view all courses and each course have details on what t
   <li>As a user, I Want to understand the background of the website, so I can decide to use this as my learning platform.</li>
   <li>As a user, I want to sign up for an account.</li>
   <li>As a user, I want to view all the plan pricing, so i can choose which plan to buy.</li>
-  <li>As a user, I want to see FAQs, which can help to clear some of my doubts.</li>
-  <li>As a user, I want to enter my credit card information, So i can sign up for my plan.</li>
 </ul>
 
 <h3>Persona</h3>Edward is a student, who wants to learn how to code. He went to SmartCamp's homepage to understand the organization. 
