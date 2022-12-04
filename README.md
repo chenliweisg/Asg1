@@ -28,14 +28,10 @@ click here to view the prototype https://xd.adobe.com/view/2cd54006-2259-438b-a3
 
 # Technology used
 <ul>
-  <li>HTML</li>
-    Structure of website
-  <li>Css</li>
-    beautiful the website
-  <li>Javascript</li>
-    function the website
-  <li>Adobe XD</li>
-    website layout idea 
+  <li>HTML</li>(Structure of website)
+  <li>Css</li>(beautiful the website)
+  <li>Javascript</li>(function the website)
+  <li>Adobe XD</li>(website layout idea )
 </ul>
 
 # Testing
