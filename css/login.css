@@ -24,7 +24,7 @@ main{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("https://img.freepik.com/premium-vector/dark-memphis-geometric-shapes-background_23-2148362571.jpg?w=2000");
+    background-image: url("https://img.freepik.com/free-vector/flat-geometric-background_23-2148957201.jpg?w=2000");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -36,18 +36,18 @@ main{
 }
 
 /*Set margin to each section*/
-.brand-name,.createAccount,.toSignInPage{
+.brand-name,.createAccount,.toSignUpPage{
     margin: 4% 0%;
 }
 
-/*Set a white bg color to createaccount & tosigninpage*/
-.createAccount,.toSignInPage{
-    background-color: white;
+/*Set a white bg color to createaccount & toSignUpPage*/
+.createAccount,.toSignUpPage{
+    background-color: #EAEDED;
     border-radius: 4px;
 }
 
 /*align some text to center*/
-.brand-name,.createAccount .title,.toSignInPage{
+.brand-name,.createAccount .title,.toSignUpPage{
     text-align: center;
 }
 
@@ -55,7 +55,7 @@ main{
 /*style for brandname*/
 .brand-name a{
     text-decoration: none;
-    color: white;
+    color: #212F3D;
 }
 
 /***createAccount***/
@@ -112,12 +112,12 @@ form input[type=submit]:hover {
     border: 2px solid rgb(255, 193, 77);
 }
 
-/***toSignInPage***/
-.toSignInPage{
+/***toSignUpPage***/
+.toSignUpPage{
     padding: 1%;
 }
 
-.toSignInPage a{
+.toSignUpPage a{
     text-decoration: none;
     color: green;
 }
@@ -149,4 +149,3 @@ form input[type=submit]:hover {
     }
 
 }
-

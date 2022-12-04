@@ -67,12 +67,12 @@ button a {
 /******HEADER/BANNER SECTION******/
 /*header/banner section bg color*/
 header{
-    background-color: #1C2833;
+    background-color: #D4E6F1 ;
 }
 
 /*text color*/
 header p, header h1{
-    color: white;
+    color: #283747;
 }
 
 /*left-right banner screen 1/2 (1025px & above)*/
@@ -102,13 +102,16 @@ header .right-content{
 .duration,.courseType,.review{
     display: flex;
     align-items: center;
-    background-color: grey;
+    background-color: #212F3C;
     padding: 8px 2%;
     border-radius: 4px;
     margin: 15px;
     margin-left: 0px;
 }
 
+.duration p,.courseType p,.review p{
+    color: white;
+}
 /*Course tag text p layout arrangement & style*/
 .duration p,.courseType p,.review p{
  margin: 0px 8px;

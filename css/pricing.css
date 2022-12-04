@@ -21,7 +21,7 @@ p{
 }
 
 /*margin between texts*/
-p,h1,h2,.subtitle{
+p,h1,h2,h3,.subtitle{
     margin: 15px;
     font-family: 'Cabin', sans-serif;
 }
@@ -42,10 +42,53 @@ p,h1,h2,.subtitle{
     padding: 100px 0px;
 }
 
+.banner{
+    padding: 200px 0px;
+}
+
+/*Set style for button */
+button{
+    width: 100%;
+    padding: 20px 0px;
+    border: transparent;
+    background-color: #85C1E9;
+    border-radius: 5px;
+    font-size:medium;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #5cb85c;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
 /******HEADER/BANNER SECTION******/
 /*header/banner section bg color*/
 header{
-    background-color: #1C2833;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    animation: change 7s ease-in-out infinite;
+    position: relative;
+    background-size: 400% 400%;
+    height:100%;
+}
+
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 }
 
 /*text color*/
@@ -53,34 +96,10 @@ header p, header h1{
     color: white;
 }
 
-/*left-right banner screen 1/2 (1025px & above)*/
-.left-content,.right-content{
-    width: 50%;
-}
-
-/*right banner content style*/
-header .right-content{
+/*left-content*/
+.left-content{
+    width: 100%;
     text-align: center;
-}
-
-header .coursename {
-    color: #40E0D0;
-}
-
-/*right banner image*/
-.banner img{
-    width: 500px;
-}
-
-/*left banner subtitle(LEARN)*/
-header .subtitle{
-    display: flex;
-    align-items: center;
-}
-
-header .subtitle img{
-    height: 50px;
-    width: 50px;
 }
 
 /******MAIN SECTION******/
@@ -89,17 +108,8 @@ main{
 }
 
 /*Category*/
-.category button{
-    padding: 10px 80px;  
-    background-color: #D5D8DC;
-    border: 2px solid #D5D8DC;
-    font-weight: bold;
-    margin: 15px 0px;
-}
-
-.category button:hover{
-    cursor: pointer;
-    background-color: white;
+.category h3{
+    padding: 10px 80px;
 }
 
 /*whole course*/
@@ -119,6 +129,7 @@ main{
     width: 27.3%;
     margin: 1% 1%;
     padding: 40px 2%;
+    height: 400px;
 }
 
 /*info h2, p style*/
@@ -150,11 +161,6 @@ main{
     transition: transform .3s; /* Animation */
   }
   
-.course:hover {
-    transform: scale(1.02);
-    box-shadow: 0 0 11px #cacaca;
-    cursor: pointer;
-}
 
 /******Responsive******/
 /*small screens like laptop 769px — 1024px*/
@@ -164,26 +170,12 @@ main{
         padding: 4% 8%;
     }
 
-    /******HEADER/BANNER SECTION******/
-    /*left-right banner screen 1/1*/
-    .left-content,.right-content{
-        width: 100%;
-        text-align: center;
-    }
-
-    /*Banner style adjust*/
-    .right-content{
-        margin-top: 4%;
-    }
-
-    /*banner Subtitle style*/
-    .subtitle{
-        justify-content: center;
-    }
-
     /******MainSection******/
     /*cateogry style*/
-    .category button{
+    .category{
+        justify-content: space-around;
+    }
+    .category h3{
         padding: 10px 55px;
     }
 
@@ -221,7 +213,7 @@ main{
         text-align: center;
     }
     
-    .category button{
+    .category h3{
         width: 100%;
     }
 

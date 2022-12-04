@@ -8,11 +8,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!--Stylesheet-->
-        <link rel="stylesheet" href="../css/signup.css">
+        <link rel="stylesheet" href="../css/login.css">
 
         <!--Javascript-->
         <script src="../js/script.js" defer></script>
-        <script src="../js/signup.js" defer></script>
+        <script src="../js/login.js" defer></script>
     </head>
     <body class="body">
 
@@ -25,21 +25,19 @@
 
                 <div class="createAccount">
                     <div class="title">
-                        <h1>Create your free account</h1>
+                        <h1>Welcome back!</h1>
                     </div>
-                    <form action="home.html">
+                    <form action="home.html" id="forms">
                         <label for="email">Email Address</label><br>
                         <input type="email" id="email" name="email" value="" autofocus><br>
-                        <p id="alertEmail" hidden>Enter a vaild email-address!</p>
                         <label for="password">Password</label><br>
                         <input type="password" id="password" name="password" value=""><br>
-                        <p id="alertPwd" hidden>Minimum 6 character pwd</p>
-                        <input type="submit" id="btn" value="Create account">
+                        <input type="submit" id="btn" value="Login">
                     </form> 
                 </div>
 
-                <div class="toSignInPage">
-                        <p>Have an account?<a href="login.html"> Login</a></p>
+                <div class="toSignUpPage">
+                        <p>Dont have an account? <a href="signup.html">Sign Up.</a></p>
                 </div>
             </section>
         </main>

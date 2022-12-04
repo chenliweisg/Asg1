@@ -7,27 +7,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!--Stylesheet-->
-        <link rel="stylesheet" href="/css/courseintro.css">
-        <link rel="stylesheet" href="/css/navbar.css">
+        <link rel="stylesheet" href="../css/courseintro.css">
+        <link rel="stylesheet" href="../css/navbar.css">
 
         <!--Javascript-->
-        <script src="/js/script.js" defer></script>
+        <script src="../js/script.js" defer></script>
+        <script src="../js/courseintro.js" defer></script>
 
     </head>
     <body class="body">
 
         <!--nav-->
         <nav class="navbar">
-            <div class="brand-title"><a href="index.html">Smart<span style="color:orange;">Camp</span></a></div>
+            <div class="brand-title"><a href="home.html">Smart<span style="color:orange;">Camp</span></a></div>
             <a href="#" class="toggle_button">
                 <img src="https://i.pinimg.com/originals/26/9d/d1/269dd16fa1f5ff51accd09e7e1602267.png" width="30px;">
             </a> 
             <div class="navbar-links">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="home.html">Home</a></li>
                     <li><a href="course.html">Course</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
                     <li><a href="signup.html">Sign Up</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" id="logInOut">Login</a></li>
                 </ul> 
             </div>               
         </nav>
@@ -40,21 +42,21 @@
                     <p>Much of the world's raw data—from electronic medical records to customer transaction histories—lives in organized collections of tables called relational databases. Being able to wrangle and extract data from these databases using SQL is an essential skill within the data industry and in increasing demand.</p>
                     <div class="details">
                         <div class="duration">
-                            <img src="/image/blackboard.png" alt="">
+                            <img src="../image/blackboard.png" alt="">
                             <p> 32 lessons</p>
                         </div>
                         <div class="courseType">
-                            <img src="/image/ribbon.png" alt="">
+                            <img src="../image/ribbon.png" alt="">
                             <p>Programming</p>
                         </div>
                         <div class="review">
-                            <img src="/image/star.png" alt="">
+                            <img src="../image/star.png" alt="">
                             <p>5.6k Review</p>
                         </div>
                     </div>
                 </div>
                 <div class="right-content">
-                    <img src="https://www.seekpng.com/png/full/40-406232_laptop-transparent-laptop-screen-black-png.png" alt="device" class="">
+                    <img src="https://static.vecteezy.com/system/resources/previews/008/300/445/large_2x/sql-or-structured-query-language-code-on-computer-monitor-with-database-and-server-room-background-example-of-sql-code-to-query-data-from-a-database-photo.jpg" alt="device" class="">
                 </div>
             </div>
         </header>
@@ -74,15 +76,16 @@
                         <p><span class="versiontag">Free</span></p>
                         <h2>1. Relational Database</h2>
                         <p class="description">Before writing any SQL queries, it’s important to understand the underlying data. In this chapter, we’ll discover the role of SQL in creating and querying relational databases. Using a database for a local library, we will explore database and table organization, data types and storage, and best practices for database construction.</p>
-                        <a href="lesson.html"><button>Start Lesson</button></a>
+                        <a href="lesson.html" id="free"><button>Start Lesson</button></a>
                     </div>
 
                     <div class="lesson premium">
-                        <p><span class="versiontag">Premiun</span></p>
-                        <h2>1. Querying</h2>
+                        <p><span class="versiontag">Premium</span></p>
+                        <h2>2. Querying</h2>
                         <p class="description">Learn your first SQL keywords for selecting relevant data from database tables! After practicing querying skills in a database of books, you’ll customize query results using aliasing and save them as views so they can be shared. Finally, you’ll explore the differences between SQL flavors and databases such as PostgreSQL and SQL Server.</p>
-                        <a href="lesson.html"><button>Start Lesson</button></a>
+                        <a href="lesson.html" id="premium"><button>Start Lesson</button></a>
                     </div>
+                   
                 </div>
 
             </section>
