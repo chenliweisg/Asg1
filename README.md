@@ -28,13 +28,54 @@ click here to view the prototype https://xd.adobe.com/view/2cd54006-2259-438b-a3
 
 # Technology used
 <ul>
-  <li>HTML(Structure of website)</li>
-  <li>Css(beautiful the website)</li>
-  <li>Javascript(function the website)</li>
-  <li>Adobe XD(website layout idea )</li>
+  <li>HTML (Structure of website)</li>
+  <li>Css (beautiful the website)</li>
+  <li>Javascript (function the website)</li>
+  <li>Adobe XD (website layout idea )</li>
 </ul>
 
 # Testing
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+
+Sign up:
+Go to the "Sign up" page
+without entering email-address and password into the text field, two red validation text will appear "Enter a vaild email-address!" & "Minimum 6 character pwd".
+wihtout a proper email-address only example(john@ or john@gmail), "Enter a vaild email-address!" text will appear.
+wihtout password only, "Minimum 6 character pwd" text will appear.
+By enter a proper email(john@gmail.com) & password "123456", the page will prompt "You have sign up successfully" and direct u to homepage.
+
+Sign in:
+Go to the "Sign in" page
+without entering email-address and password into the text field, email & password input box will turn into red color.
+wihtout an exisiting email-address only, email input box will turn into red color.
+wihtout entering password only, password input box will turn into red color.
+By enter an existing email(john@gmail.com) & password "123456", the page will bring you to the previous page, but if your previous page is "signup" page it will bring you to the homepage.
+
+Buy plan:
+Go to the "Pricing" page
+without login to account, choose your plan by clicking on "subscribe now" button and the page will bring you to login page before allowing you to buy the plan  
+Login to account, choose your plan by clicking on "subscribe now" button and the page will alert you "Thank you for buying "name of the plan".
+After the plan is brought, the "subscribe now" button of that plan will be disabled.
+
+Buy plan:
+Go to the "Pricing" page
+without login to account, choose your plan by clicking on "subscribe now" button and the page will bring you to login page before allowing you to buy the plan  
+Login to account, choose your plan by clicking on "subscribe now" button and the page will alert you "Thank you for buying "name of the plan".
+After the plan is brought, the "subscribe now" button of that plan will be disabled.
+
+entering to a course intro page:
+Go to course page and then click on a course u interested in, the page will bring you into the course intro page.
+Free version:
+without login click on "start lesson" button, the page will direct u to login page.
+login to a account click on "start lesson" button, the page will direct u to the lesson page.
+premium version:
+without login or no purchase the premium plan, click on "start lesson" button, the page will direct u to login page.
+login to a account with premium plan click on "start lesson" button, the page will direct u to the lesson page.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 # Credits
 <h3>Content</h3>
