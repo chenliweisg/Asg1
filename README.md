@@ -46,26 +46,34 @@ click here to view the prototype https://xd.adobe.com/view/2cd54006-2259-438b-a3
 </ul>
 
 <h3>Sign in:</h3>
+<ul>
 <li>Go to the "Sign in" page</li>
 <li>without entering email-address and password into the text field, email & password input box will turn into red color.</li>
 <li>wihtout an exisiting email-address only, email input box will turn into red color.</li>
 <li>wihtout entering password only, password input box will turn into red color.</li>
 <li>By enter an existing email(john@gmail.com) & password "123456", the page will bring you to the previous page, but if your previous page is "signup" page it will bring you to the homepage.</li>
+</ul>
 
-<h3Buy plan:</h3>
+<h3>Buy plan:</h3>
+<ul>
 <li>Go to the "Pricing" page</li>
 <li>without login to account, choose your plan by clicking on "subscribe now" button and the page will bring you to login page before allowing you to buy the plan</li> 
 <li>Login to account, choose your plan by clicking on "subscribe now" button and the page will alert you "Thank you for buying "name of the plan".</li>
 <li>After the plan is brought, the "subscribe now" button of that plan will be disabled.</li>
+</ul>
 
-<h3entering to a course intro page:</h3>
+<h3>entering to a course intro page:</h3>
 Go to course page and then click on a course u interested in, the page will bring you into the course intro page.
-Free version:
-without login click on "start lesson" button, the page will direct u to login page.
-login to a account click on "start lesson" button, the page will direct u to the lesson page.
-premium version:
-without login or no purchase the premium plan, click on "start lesson" button, the page will direct u to login page.
-login to a account with premium plan click on "start lesson" button, the page will direct u to the lesson page.
+<h4>Free version:</h4>
+<ul>
+<li>without login click on "start lesson" button, the page will direct u to login page.</li>
+<li>login to a account click on "start lesson" button, the page will direct u to the lesson page.</li>
+</ul>
+<h4>premium version:</h4>
+<ul>
+<li>without login or no purchase the premium plan, click on "start lesson" button, the page will direct u to login page.</li>
+<li>login to a account with premium plan click on "start lesson" button, the page will direct u to the lesson page.</li>
+</ul>
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
