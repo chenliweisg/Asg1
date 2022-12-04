@@ -62,7 +62,7 @@ click here to view the prototype https://xd.adobe.com/view/2cd54006-2259-438b-a3
 <li>After the plan is brought, the "subscribe now" button of that plan will be disabled.</li>
 </ol>
 
-<h3>Entering to a course intro page:</h3>
+<h3>Attend Lesson:</h3>
 Go to course page and then click on a course u interested in, the page will bring you into the course intro page.
 <h4>Free version:</h4>
 <ol>
@@ -70,7 +70,7 @@ Go to course page and then click on a course u interested in, the page will brin
 <li>login to a account click on "start lesson" button, the page will direct u to the lesson page.</li>
 </ol>
 <h4>premium version:</h4>
-<ul>
+<ol>
 <li>without login or no purchase the premium plan, click on "start lesson" button, the page will direct u to login page.</li>
 <li>login to a account with premium plan click on "start lesson" button, the page will direct u to the lesson page.</li>
 </ol>
