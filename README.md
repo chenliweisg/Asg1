@@ -23,6 +23,10 @@ click here to view the prototype https://xd.adobe.com/view/2cd54006-2259-438b-a3
   <li>Feature 1 - navbar collpase in small devices(responsive features)</li>
   <li>Feature 2 - Banner image will change according to different width size(responsive features)</li>
   <li>Feature 3 - Button color and text will change when mouse hover over</li>
+  <li>Feature 4 - in course page, course can be filter by pressing the course category button</li>
+  <li>Feature 5 - pricing page banner animation</li>
+  <li>Feature 6 - Button is disable after purchasing the plan</li>
+  <li>Feature 6 - Login and sign up validation</li>
 </ul>
 
 # Technology used
