@@ -16,6 +16,10 @@ if (localStorage.getItem('session') == "true")
         localStorage.setItem('session',false)
         location.reload();       
         /*localStorage.clear();*/
+
+        if (localStorage.page == 'lesson.html'){
+            document.getElementById('logInOut').href = "course.html"
+        }
     }
 
     logInOutBtn.addEventListener('click',logout,false)
