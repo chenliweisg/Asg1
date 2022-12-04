@@ -27,6 +27,12 @@ click here to view the prototype https://xd.adobe.com/view/2cd54006-2259-438b-a3
 </ul>
 
 # Technology used
+<ul>
+  <li>HTML</li>
+  <li>Css)</li>
+  <li>Javascript</li>
+  <li>Adobe XD</li>
+</ul>
 
 # Testing
 
@@ -34,14 +40,33 @@ click here to view the prototype https://xd.adobe.com/view/2cd54006-2259-438b-a3
 <h3>Content</h3>
 <h3>Media</h3>
 <ul>
+<h4>website image</h4>
 <li>https://i.pinimg.com/originals/26/9d/d1/269dd16fa1f5ff51accd09e7e1602267.png (Navbar Collapse icon)</li>
 <li>https://www.seekpng.com/png/full/40-406232_laptop-transparent-laptop-screen-black-png.png (Device image)</li>
-<li>https://newline-interactive.com/wp-content/uploads/2020/03/E-learning-2-1.png (Introduction image)</li>
+<li>https://newline-interactive.com/wp-content/uploads/2020/03/E-learning-2-1.png (Introduction image)</li>  
+<li>https://cdn-icons-png.flaticon.com/512/2241/2241299.png</li>
+<li>https://therenegadecoder.com/wp-content/uploads/2020/05/python-dictionary-syntax.png</li>
+<li>https://cdn-icons-png.flaticon.com/64/74/74906.png</li>
+<li>https://cdn-icons-png.flaticon.com/64/1940/1940857.png</li>
+<li>https://cdn-icons-png.flaticon.com/64/3031/3031121.png</li>
+<li>https://cdn-icons-png.flaticon.com/64/1828/1828970.png</li>
+<li>https://cdn-icons-png.flaticon.com/64/2772/2772149.png</li>
+<li>https://cdn-icons-png.flaticon.com/64/5968/5968292.png</li>
+<li>https://cdn-icons-png.flaticon.com/64/5968/5968520.png</li>
+<h4>background img</h4>
+https://img.freepik.com/free-vector/flat-geometric-background_23-2148957201.jpg?w=2000
+https://img.freepik.com/premium-vector/dark-memphis-geometric-shapes-background_23-2148362571.jpg?w=2000
+https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/619150/3bb00cbe95127f2fe36c85a33cfe69f4e5911234.jpg
+https://static.vecteezy.com/system/resources/previews/001/576/507/original/abstract-flat-solid-color-background-free-vector.jpg
+<h4>Youtube video</h4>
+<li>https://www.youtube.com/embed/xmwI6VB_wUM</li>
 </ul>
 
 <h3>Acknowledgements</h3>
 <ul>
   <li>This website is inspire by https://www.datacamp.com/</li>
+  <li>This website is inspire by https://www.hubspot.com/</li>
+  <li>This website is inspire by https://www.dribbble.com/</li>
 </ul>
 
 
