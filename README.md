@@ -54,10 +54,10 @@ click here to view the prototype https://xd.adobe.com/view/2cd54006-2259-438b-a3
 <li>https://cdn-icons-png.flaticon.com/64/5968/5968292.png</li>
 <li>https://cdn-icons-png.flaticon.com/64/5968/5968520.png</li>
 <h4>background img</h4>
-https://img.freepik.com/free-vector/flat-geometric-background_23-2148957201.jpg?w=2000
-https://img.freepik.com/premium-vector/dark-memphis-geometric-shapes-background_23-2148362571.jpg?w=2000
-https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/619150/3bb00cbe95127f2fe36c85a33cfe69f4e5911234.jpg
-https://static.vecteezy.com/system/resources/previews/001/576/507/original/abstract-flat-solid-color-background-free-vector.jpg
+<li>https://img.freepik.com/free-vector/flat-geometric-background_23-2148957201.jpg?w=2000</li>
+<li>https://img.freepik.com/premium-vector/dark-memphis-geometric-shapes-background_23-2148362571.jpg?w=2000</li>
+<li>https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/619150/3bb00cbe95127f2fe36c85a33cfe69f4e5911234.jpg</li>
+<li>https://static.vecteezy.com/system/resources/previews/001/576/507/original/abstract-flat-solid-color-background-free-vector.jpg</li>
 <h4>Youtube video</h4>
 <li>https://www.youtube.com/embed/xmwI6VB_wUM</li>
 </ul>
