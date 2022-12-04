@@ -55,14 +55,14 @@ click here to view the prototype https://xd.adobe.com/view/2cd54006-2259-438b-a3
 </ol>
 
 <h3>Buy plan:</h3>
-<ul>
+<ol>
 <li>Go to the "Pricing" page</li>
 <li>without login to account, choose your plan by clicking on "subscribe now" button and the page will bring you to login page before allowing you to buy the plan</li> 
 <li>Login to account, choose your plan by clicking on "subscribe now" button and the page will alert you "Thank you for buying "name of the plan".</li>
 <li>After the plan is brought, the "subscribe now" button of that plan will be disabled.</li>
 </ol>
 
-<h3>entering to a course intro page:</h3>
+<h3>Entering to a course intro page:</h3>
 Go to course page and then click on a course u interested in, the page will bring you into the course intro page.
 <h4>Free version:</h4>
 <ol>
