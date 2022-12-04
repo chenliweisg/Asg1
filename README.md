@@ -12,9 +12,8 @@ The user will be able to view all courses and each course have details on what t
   <li>As a user, I want to view all the plan pricing, so i can choose which plan to buy.</li>
 </ul>
 
-<h3>Persona</h3>Edward is a student, who wants to learn how to code. He went to SmartCamp's homepage to understand the organization. 
-Later he went to the course page to view all the products. After choosing his product and signing up, the website brings him to the signup page.
-He then enters his credit card information and email.
+<h3>Persona</h3>Edward is a student, who wants to learn how to programming and software apps. He went to SmartCamp's homepage to understand the organization. 
+Later he went to the course page to view all the products. He then went to pricing page and choose a premium plan. Before purchasing the plan, he has to create or login to an account. After signing up and purchasing a premium plan, he went to course page start his first lesson. The lesson has a video and some note for him to study.
 
 click here to view the prototype https://xd.adobe.com/view/2cd54006-2259-438b-a3c9-86eb302a823d-7986/
 
